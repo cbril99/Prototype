@@ -19,3 +19,15 @@ header {
     align-items: center;
     padding: 30px 10%;
 }
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+}
