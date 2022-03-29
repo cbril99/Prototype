@@ -30,4 +30,16 @@ header {
 
 .nav__links li {
     display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.fa-facebook {
+    background: white;
+    color: #8105D8;
+  }
+
+.fa-instagram {
+    background: white;
+    color: #8105D8;
 }
