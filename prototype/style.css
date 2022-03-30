@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,6 +9,7 @@
 
 li, a {
     font-family: 'Montserrat', sans-serif;
+    color: black;
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
@@ -22,6 +24,7 @@ header {
 
 .logo {
     cursor: pointer;
+    width: 150px;
 }
 
 .nav__links {
@@ -42,4 +45,20 @@ header {
 .fa-instagram {
     background: white;
     color: #8105D8;
+}
+
+.top {
+    background-color: #E4E4E4;
+    min-height: 400px;
+}
+
+.bottom {
+    background-color: white;
+    min-height: 300px;
+}
+
+h1 {
+    color: #CB218E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
 }
