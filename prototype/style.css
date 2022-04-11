@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
 }
 
 .logo {
@@ -49,12 +49,17 @@ header {
 
 .top {
     background-color: #E4E4E4;
-    min-height: 300px;
+    min-height: 450px;
 }
 
 .bottom {
     background-color: white;
-    min-height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    min-height: 400px;
+    width: 700px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -62,3 +67,33 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 80px;
 }
+
+.title{
+    padding-top: 175px;
+    padding-left: 50px;
+    display: inline-flex;
+}
+
+.intro_pic {
+    display: inline-flex;
+    float: right;
+    height: 325px;
+    margin-right: 75px;
+    margin-top: 150px; 
+    box-shadow: -12px 13px 0px 5px #8105D8;
+}
+
+.button {
+    background-color: #8105D8;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+    
+  }
