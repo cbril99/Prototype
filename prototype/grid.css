@@ -30,7 +30,7 @@ nav > ul {
 }
 
 #content1 {
-    background-color: #E4E4E4;
+    background-color: #e4e4e4;
     grid-area: content1;
     display: grid;
     justify-content: center;
@@ -55,18 +55,25 @@ nav > ul {
     justify-content: center;
 }
 
+
+
 #magazine {
     grid-area: content1 / content1 / content4 / content4;
     display: grid;
     justify-content: center;
 }
 
-#mobile {
-    grid-area: content1 / content1 / content4 / content4;
+#desktop {
+    grid-area: content1 / content1 / content2 / content2;
     display: grid;
-    justify-content: center;
+    place-items: center;
 }
 
+#mobile {
+    grid-area: content3 / content3 / content4 / content4;
+    display: grid;
+    place-items: center;
+}
 
 
 @media only screen and (max-width: 550px){
