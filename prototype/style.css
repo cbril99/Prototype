@@ -25,6 +25,14 @@ nav a:hover {
 nav .current {
     border-bottom: 2px solid #CB218E;
 }
+
+.menu a:hover {
+    border-bottom: 2px solid #CB218E;
+}
+
+.menu .current {
+    border-bottom: 2px solid #CB218E;
+}
   
 
 
@@ -40,19 +48,6 @@ nav .current {
 .menu, a {
     list-style: none;
     color: grey;
-}
-
-
-/* socials */
-
-.fa-facebook {
-    background: white;
-    color: #8105D8;
-  }
-
-.fa-instagram {
-    background: white;
-    color: #8105D8;
 }
 
 
@@ -157,4 +152,17 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     display: inline-flex;
     float: left;
+}
+
+iframe {
+    display: grid;
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+#mobile {
+    display: grid;
+    justify-self: center;
+    background-color: aquamarine;
 }

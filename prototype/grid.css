@@ -55,6 +55,20 @@ nav > ul {
     justify-content: center;
 }
 
+#magazine {
+    grid-area: content1 / content1 / content4 / content4;
+    display: grid;
+    justify-content: center;
+}
+
+#mobile {
+    grid-area: content1 / content1 / content4 / content4;
+    display: grid;
+    justify-content: center;
+}
+
+
+
 @media only screen and (max-width: 550px){
     .container {
         grid-template-columns: 1fr;
