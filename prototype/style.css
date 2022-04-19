@@ -7,35 +7,43 @@
     padding: 0;
 }
 
+/* header + navbar */
+
 li, a {
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
+    padding-top: 20px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10%;
+nav a:hover {
+    border-bottom: 2px solid #CB218E;
 }
+
+nav .current {
+    border-bottom: 2px solid #CB218E;
+}
+  
+
 
 .logo {
     cursor: pointer;
     width: 150px;
 }
 
-.nav__links {
+.menu {
+    padding-top: 20px;
+}
+
+.menu, a {
     list-style: none;
+    color: grey;
 }
 
-.nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
-}
 
+/* socials */
 
 .fa-facebook {
     background: white;
@@ -47,6 +55,8 @@ header {
     color: #8105D8;
 }
 
+
+/* content */
 .top {
     background-color: #E4E4E4;
     min-height: 450px;
@@ -65,11 +75,18 @@ header {
 h1 {
     color: #CB218E;
     font-family: 'Raleway', sans-serif;
-    font-size: 80px;
+    font-size: 75px;
+    align-self: center;
 }
 
 .title{
     padding-top: 175px;
+    padding-left: 50px;
+    display: inline-flex;
+}
+
+.title2{
+    padding-top: 100px;
     padding-left: 50px;
     display: inline-flex;
 }
@@ -95,5 +112,49 @@ h1 {
     text-decoration: none;
     display: inline-block;
     margin-top: 25px;
-    
   }
+
+  /* mijn werk */
+
+.content_pics {
+      max-width: 400px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+}
+
+.OM {
+    display: inline-flex;
+    float: left;
+    height: 325px;
+    margin-left: 75px;
+    margin-top: 50px; 
+    box-shadow: 12px 13px 0px 5px #8105D8;
+}
+
+.photo {
+    display: inline-flex;
+    float: right;
+    height: 325px;
+    margin-left: 75px;
+    margin-top: 50px; 
+    box-shadow: -12px 13px 0px 5px #CB218E;
+}
+
+.about {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 700px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+}
+
+.mail {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 700px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    float: left;
+}
