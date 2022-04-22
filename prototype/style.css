@@ -191,8 +191,8 @@ iframe {
     justify-self: center;
     margin-top: 30px;
     margin-bottom: 40px;
-
 }
+
 
 /* gallery */
 
@@ -202,7 +202,6 @@ iframe {
     column-gap: 10px;
     justify-self: center;
     margin-top: 30px;
-
  }
 
  #gallery img {
@@ -210,13 +209,27 @@ iframe {
     height: auto !important;
     margin-bottom: 10px; 
     filter: grayscale(100%);
+    transition: all 500ms;
  }
 
  #gallery img:hover {
     filter:none;
  }
 
+ 
+ /* paintings */
 
+ img.painting {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    max-width: 400px;
+    box-shadow:
+        -50px -50px 0 -40px #8105D8,
+        50px 50px 0 -40px #CB218E;
+}
+
+
+/* responsive image gallery */
 
  @media (max-width: 1200px) {
     #gallery {
