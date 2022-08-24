@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
 * {
-    box-sizing: border-box;
+    
     margin: 0;
     padding: 0;
 }
@@ -61,7 +61,6 @@ nav .logolink {
 
 .top {
     background-color: #E4E4E4;
-    min-height: 450px;
 }
 
 h1 {
@@ -313,5 +312,11 @@ input {
  @media (max-width: 400px) {
     #gallery {
      column-count: 1;
+    }
+ }
+
+ @media (min-width: 900px){
+    .top {
+    min-height: 450px;
     }
  }
