@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <title>Prototype</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="grid2.css">
+        <link rel="stylesheet" href="style2.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
@@ -36,11 +37,42 @@
         -->
 
         <div class="container">
-            <nav>
+
+            <header class="header">
+            
                 <img class="logo" src="images/logo.svg" alt="logo">
-            </nav>
-            <div id="content1">Content1</div>
-            <div id="content2">Content2</div>
+                <input class="menu-button" type="checkbox" id="menu-button"/>
+                <label class="menu-icon" for="menu-button"><span class="nav-icon"></span></label>
+
+                <ul class="menu">
+                    <li><a href="werk.html">Mijn Werk</a></li>
+                    <li><a href="overmij.html">Over Mij</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            
+            </header>
+
+            <div id="content1">
+                <h1 class="title">LEAVE YOUR MARK</h1>
+                <img class="intro_pic" src="images/intro.svg" alt="intro">
+            </div>
+            <div id="content2">
+                <p> Wat leuk dat je mijn website bezoekt!
+                    Je kan hier meer over mij te weten komen om te kijken of we bij elkaar passen, 
+                    en wat voor designer ik ben, of je kan me direct een bericht sturen.
+                </p>
+
+                <img id="pic" class="intro_pic2" src="images/intro.svg" alt="intro">
+
+                <p>
+                    Ben je benieuwd naar mijn werk, klik dan hieronder op de knop om direct doorgestuurd te worden!
+                </p>
+            </div>
+
+            <div id="content3">
+                <button class="button" type="button">BEKIJK MIJN WERK</button>
+            </div>
+
         </div>
     
     </body>

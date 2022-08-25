@@ -1,17 +1,24 @@
+
 .container {
   display: grid;
   height: 100vh;
+
   grid-template-columns: 1fr 2fr 2fr;
-  grid-template-rows: 0.5fr 2fr 2fr;
+  grid-template-rows: 0.5fr 2fr auto 2fr;
   grid-template-areas: 
-    "nav nav nav"
+    "header header header"
     "content1 content1 content1"
-    "content2 content2 content2"
+    "content2 content2 ."
+    ". content3 content3"
   ;
 }
 
-nav {
-  grid-area: nav;
+.logo {
+  grid-area: header;
+}
+
+header {
+  grid-area: header;
 }
 
 #content1 {
@@ -20,21 +27,39 @@ nav {
 }
 
 #content2 {
-  background: #64ffda;
   grid-area: content2;
 }
 
+#content3 {
+  grid-area: content3;
+}
 
 
 
 @media only screen and (max-width: 768px){
   .container {
+    width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
     grid-template-areas:
-      "nav"
+      "header"
       "content1"
       "content2"
+      "content3"
+    ;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+    grid-template-areas:
+      "header"
+      "content1"
+      "content2"
+      "content3"
     ;
   }
 }
