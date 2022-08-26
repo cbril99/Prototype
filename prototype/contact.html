@@ -4,45 +4,51 @@
         <meta charset="UTF-8">
         <title>Prototype</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="grid.css">
+
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="grid2.css">
+        <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
+        <div class="container">
+    
+            <header class="header">
+                <a href="index2.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+                <input class="menu-button" type="checkbox" id="menu-button"/>
+                <label class="menu-icon" for="menu-button"><span class="nav-icon"></span></label>
+    
+                <ul class="menu">
+                    <li><a href="werk.html">Mijn Werk</a></li>
+                    <li><a href="overmij.html">Over Mij</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </header>
 
-        <nav>
-            <ul class="nav__links">
-                <img class="logo" src="images/logo.svg" alt="logo">
-                <li><a href="werk.html">Mijn Werk</a></li>
-                <li><a href="overmij.html">Over Mij</a></li>
-                <li><a class="current" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+            <div id="content1-form">
+                <h1 class="form-title">Stuur me een bericht</h1>
+                
+                    <p class="form-text">Ik zal er zo spoedig mogelijk op reageren!</p>
+                    <form class="form">
+                        <label for="name">Naam:</label><br>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+                        <label for="bericht">Bericht:</label><br>
+                        <input type="text" id="bericht" name="bericht"><br>
+                        <input type="submit" value="Verstuur">
+                    </form>
+            </div>
 
-        <div class="contacttop">
-            <h1 class="form-title">Stuur me een bericht</h1>
-            <p class="form-text">Ik zal er zo spoedig mogelijk op reageren!</p>
-
-            <form>
-                <label for="name">Naam:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email"><br>
-                <label for="bericht">Bericht:</label><br>
-                <input type="text" id="bericht" name="bericht"><br>
-                <input type="submit" value="Verstuur">
-            </form>
-
-            <p class="textbox">
-                Info <br>
-                0646250843 <br>
-                cbril311@outlook.com <br>
-            </p>
+            <div id="textbox">
+                <p class="textbox">
+                    Info <br>
+                    0646250843 <br>
+                    cbril311@outlook.com <br>
+                </p>
+            </div>
 
         </div>
-
-        <div class="bottom"></div>
-    
     </body>
 </html>

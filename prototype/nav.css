@@ -8,7 +8,26 @@ header {
 }
 
 a {
-    color: black;
+    color: grey;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway';
+}
+
+div #sidemenu a {
+    color: grey;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway';
+    padding-left: 20%;
+}
+
+div #sidemenu {
+    padding-top: 20px;
+}
+
+div #sidemenu li {
+    padding-bottom: 15px;
 }
 
 .header {

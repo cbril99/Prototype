@@ -4,37 +4,49 @@
         <meta charset="UTF-8">
         <title>Prototype</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="grid.css">
+        
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="grid2.css">
+        <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
+        <div class="container">
 
-        <nav>
-            <ul class="nav__links">
-                <img class="logo" src="images/logo.svg" alt="logo">
-                <li><a href="werk.html">Mijn Werk</a></li>
-                <li><a class="current" href="overmij.html">Over Mij</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+            <header class="header">
+                <a href="index2.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+                <input class="menu-button" type="checkbox" id="menu-button"/>
+                <label class="menu-icon" for="menu-button"><span class="nav-icon"></span></label>
 
-        <div class="top">
-            <img class="OM" src="images/OM.svg" alt="OM">
-            <h1 class="title2">GET TO KNOW ME</h1>
-            <p class="about">Mijn naam is Chrissy Bril, ik ben 23 jaar en ik ben een derdejaars student Communicatie en Multimedia Design aan de Haagse Hogeschool. 
-                <br>Naast grafisch ontwerpen heb ik ook een grote liefde voor fotografie.</p>
+                <ul class="menu">
+                    <li><a href="werk.html">Mijn Werk</a></li>
+                    <li><a href="overmij.html">Over Mij</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </header>
+
+            <div id="content1">
+                <img class="OM" src="images/OM.svg" alt="photo">
+                <h1 class="OMtext">GET TO KNOW ME</h1>
+            </div>
+
+            <div id="content2">
+                <p class="about">Mijn naam is Chrissy Bril, ik ben 23 jaar en ik ben een derdejaars student Communicatie en Multimedia Design aan de Haagse Hogeschool. 
+                Naast grafisch ontwerpen heb ik ook een grote liefde voor fotografie.</p>
+
+                <p class="mail">Heb je vragen of wil je gewoon graag contact met me opnemen? 
+                    Vul dan het contactformulier in of mail direct naar cbril311@outlook.com
+                </p>
+            </div>
+
+            <div id="image">
+                <img class="photo" src="images/photo.svg" alt="photo">
+            </div>
+
         </div>
-
-        <div class="bottom">
-            <p class="mail">Heb je vragen of wil je gewoon graag contact met me opnemen? 
-                Vul dan het contactformulier in of mail direct naar cbril311@outlook.com
-                
-            </p>
-
-            <img class="photo" src="images/photo.svg" alt="photo">
-        </div>
-    
     </body>
+
+
+
 </html>

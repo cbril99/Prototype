@@ -1,8 +1,37 @@
-h1 {
+/* grid */
+#content1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content1-form {
+    justify-content: center;
+}
+
+#content2 {
+    padding: 10px;
+}
+
+#content3 {
+    text-align: center;
+}
+
+/* home */
+h1, .OMtext {
     color: #CB218E;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     text-align: center;
+    margin-left: 5%;
+}
+
+.form-title {
+    color: #CB218E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-left: 0;
 }
 
 p {
@@ -24,20 +53,6 @@ p {
     box-shadow: -12px 11px 0px 3px #8105D8;
 }
 
-#content1 {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#content2 {
-    padding: 10px;
-}
-
-#content3 {
-    text-align: center;
-}
-
 .button {
     background-color: #8105D8;
     border: none;
@@ -48,8 +63,78 @@ p {
     font-size: 16px;
     text-decoration: none;
     margin-top: 25px;
+}
+
+
+/* mijn werk page */
+.content_pics {
+    max-width: 100%;
+    padding-top: 10px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* over mij page */
+.OM {
+    display: none;
+}
+
+.photo {
+    display: none;
+}
+
+
+/*contact formulier*/
+.form-text {
+    font-family: 'Raleway';
+    color: black;
 
 }
+
+input[type=text] {
+    border: none;
+    width: 80%;
+    border-bottom: 1px solid #707070;
+    background-color: transparent;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #8105D8;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+label {
+    font-family: 'Montserrat';
+}
+
+input {
+    display: flex;
+}
+
+.form {
+    padding-bottom: 10px;
+}
+
+.textbox{
+    padding: 20px;
+    background-color: #CB218E;
+    line-height: 60px;
+    font-family: 'Raleway';
+    font-size: 26px;
+    color: white;
+    box-shadow: 12px 13px 0px 5px #8105D8;
+}
+
+/* media querie tablet */
 
 @media only screen and (min-width: 769px){
     .intro_pic2 {
@@ -66,14 +151,39 @@ p {
         box-shadow: -12px 11px 0px 3px #8105D8;
     }
 
-    h1 {
-        padding-left: 5%;
+    #sidemenu {
+       display: block;
     }
+
+    .OM {
+        display: block;
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+        margin-top: 50px; 
+        box-shadow: 12px 13px 0px 5px #8105D8;
+    }
+
+    #content1-form {
+        justify-content: left;
+        padding-left: 10%;
+
+    }
+
 }
 
+/* media querie laptop/pc */
 @media only screen and (min-width: 900px) {
     .button {
         margin-top: 0;
-    
     }
+
+    .photo {
+        display: block;
+        width: 80%;
+        margin-top: 50px; 
+        box-shadow: 12px 13px 0px 5px #CB218E;
+    }
+
+
 }
