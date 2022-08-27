@@ -4,24 +4,29 @@
         <meta charset="UTF-8">
         <title>Prototype</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
 
-        <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="carousel.css">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="grid2.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-
         <div class="container">
-            <nav>
-                <ul class="nav__links">
-                    <img class="logo" src="images/logo.svg" alt="logo">
-                    <li><a class="current" href="werk.html">Mijn Werk</a></li>
+
+            <header class="header">
+                <a href="index2.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+                <input class="menu-button" type="checkbox" id="menu-button"/>
+                <label class="menu-icon" for="menu-button"><span class="nav-icon"></span></label>
+
+                <ul class="menu">
+                    <li><a href="werk.html">Mijn Werk</a></li>
                     <li><a href="overmij.html">Over Mij</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </nav>
-            
+            </header>
+
             <div id="sidemenu">
                 <ul class="menu">
                     <li><a href="webdesign.html">WEB DESIGN</a></li>
@@ -31,20 +36,18 @@
                 </ul>
             </div>
 
-            <div id="filler"></div>
-
-            <div id="content1">
-                <img class="painting" src="images/lippen.PNG">
+            <div id="painting1">
+                <img class="content_pics" src="images/lippen.PNG">
             </div>
 
-            <div id="content2">
-                <img class="painting" src="images/neus.PNG">
+            <div id="painting2">
+                <img class="content_pics" src="images/neus.PNG">
             </div>
 
-            <div id="content3">
-                <img class="painting" src="images/landschap.PNG">
+            <div id="painting3">
+                <img class="content_pics" src="images/landschap.PNG">
             </div>
+
         </div>
-
     </body>
 </html>

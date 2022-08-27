@@ -4,23 +4,28 @@
         <meta charset="UTF-8">
         <title>Prototype</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="stylesheet" href="devices.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="grid2.css">
+        <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-
         <div class="container">
-            <nav>
-                <ul class="nav__links">
-                    <img class="logo" src="images/logo.svg" alt="logo">
-                    <li><a class="current" href="werk.html">Mijn Werk</a></li>
+
+            <header class="header">
+                <a href="index2.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+                <input class="menu-button" type="checkbox" id="menu-button"/>
+                <label class="menu-icon" for="menu-button"><span class="nav-icon"></span></label>
+
+                <ul class="menu">
+                    <li><a href="werk.html">Mijn Werk</a></li>
                     <li><a href="overmij.html">Over Mij</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </nav>
+            </header>
 
             <div id="sidemenu">
                 <ul class="menu">
@@ -31,34 +36,15 @@
                 </ul>
             </div>
 
-            <div id="content1"></div>
+            <div id="webdesign">
+                <img class="mockups" src="images/mockup-desktop.svg">
+            </div>
 
-                <div id="desktop" class="device device-macbook-pro device-spacegray">
-                    <div class="device-frame">
-                    <img class="device-content" src="images/desktop.svg">
-                    </div>
-                    <div class="device-stripe"></div>
-                    <div class="device-header"></div>
-                    <div class="device-sensors"></div>
-                    <div class="device-btns"></div>
-                    <div class="device-power"></div>
-                </div>
-            
-            <div id="content2"></div>
-
-            <div id="mobile" class="device device-iphone-x">
-                <div class="device-frame">
-                  <img class="device-content" src="images/mobile3.svg">
-                </div>
-                <div class="device-stripe"></div>
-                <div class="device-header"></div>
-                <div class="device-sensors"></div>
-                <div class="device-btns"></div>
-                <div class="device-power"></div>
+            <div id="editorial">
+                <img class="mockups" src="images/mockup-mobile.svg">
             </div>
             
         </div>
-
     </body>
 </html>
 

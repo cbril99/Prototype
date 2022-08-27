@@ -5,23 +5,27 @@
         <title>Prototype</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="grid2.css">
+        <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-
         <div class="container">
-            <nav>
-                <ul class="nav__links">
-                    <img class="logo" src="images/logo.svg" alt="logo">
-                    <li><a class="current" href="werk.html">Mijn Werk</a></li>
+
+            <header class="header">
+                <a href="index2.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+                <input class="menu-button" type="checkbox" id="menu-button"/>
+                <label class="menu-icon" for="menu-button"><span class="nav-icon"></span></label>
+
+                <ul class="menu">
+                    <li><a href="werk.html">Mijn Werk</a></li>
                     <li><a href="overmij.html">Over Mij</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </nav>
-            
+            </header>
+
             <div id="sidemenu">
                 <ul class="menu">
                     <li><a href="webdesign.html">WEB DESIGN</a></li>
@@ -31,10 +35,7 @@
                 </ul>
             </div>
 
-            <div id="filler"></div>
-            
-            <div id="content1"></div>
-
+            <div id="image-gallery">
                 <div id="gallery">
                     <img src="images/band.PNG">
                     <img src="images/board.PNG">
@@ -48,10 +49,8 @@
                     <img src="images/strand.jpg">
                     <img src="images/steen.jpg">
                 </div>
-            
-            <div id="content2"></div>
+            </div>
 
         </div>
-    
     </body>
 </html>

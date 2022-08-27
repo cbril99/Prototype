@@ -28,6 +28,7 @@ header {
   float: left;
 }
 
+/* HOME */
 #content1 {
   background-color: #E4E4E4;
   grid-area: content1;
@@ -45,6 +46,7 @@ header {
   grid-area: content4;
 }
 
+/* MIJN WERK */
 #sidemenu {
   grid-row: 2;
   grid-column: 1;
@@ -80,6 +82,31 @@ header {
   padding-right: 20px;
 }
 
+#magazine {
+  grid-column: 2 / 4;
+  grid-row: 2 / 5;
+}
+
+#image-gallery {
+  grid-column: 2 / 4;
+  grid-row: 2 / 5;
+}
+
+#painting1 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+#painting2 {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+#painting3 {
+  grid-row: 3;
+  grid-column: 2;
+}
+
 
 /* media queries mobile */
 @media only screen and (max-width: 768px){
@@ -94,31 +121,6 @@ header {
       "content3"
       "content4"
     ;
-  }
-
-  #sidemenu {
-    display: none;
-  }
-
-  #webdesign {
-    grid-area: content1;
-  }
-  
-  #editorial {
-    grid-area: content2;
-  }
-  
-  #painting {
-    grid-area: content3;
-  }
-  
-  #photography {
-    grid-area: content4;
-  }
-
-  #textbox {
-    grid-area: content2;
-    margin-top: 0;
   }
 
 }
@@ -161,5 +163,29 @@ header {
   #textbox {
     grid-area: content2;
     margin-top: 0;
+  }
+
+  #painting1 {
+    grid-area: content1;
+  }
+  
+  #painting2 {
+    grid-area: content2;
+  }
+  
+  #painting3 {
+    grid-area: content3;
+  }
+
+  #magazine {
+    grid-area: content1 / content1 / content4 / content4;
+    display: grid;
+    justify-content: center;
+  }
+
+  #image-gallery {
+    grid-area: content1 / content1 / content4 / content4;
+    display: grid;
+    justify-content: center;
   }
 }
